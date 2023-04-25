@@ -18,10 +18,11 @@
 // Get element by id
 // console.log(document.getElementById('header-title'));
 var headerTitle = document.getElementById('header-title');
-console.log(headerTitle);
+// console.log(headerTitle);
 // headerTitle.textContent = 'Hello';
 // headerTitle.innerText = 'Goodbye';
 // headerTitle.innerHTML = '<h3>Hello</h3>';
+
 
 
 
