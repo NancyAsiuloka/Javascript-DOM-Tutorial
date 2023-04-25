@@ -21,7 +21,7 @@ var headerTitle = document.getElementById('header-title');
 console.log(headerTitle);
 // headerTitle.textContent = 'Hello';
 // headerTitle.innerText = 'Goodbye';
-headerTitle.innerHTML = '<h3>Hello</h3>';
+// headerTitle.innerHTML = '<h3>Hello</h3>';
 
 
 
