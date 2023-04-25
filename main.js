@@ -14,3 +14,6 @@
 // console.log(document.forms[0]);
 // console.log(document.links);
 // console.log(document.images);
+
+// Get element by id
+
