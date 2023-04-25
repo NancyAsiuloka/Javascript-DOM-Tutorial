@@ -22,7 +22,7 @@ var headerTitle = document.getElementById('header-title');
 // headerTitle.textContent = 'Hello';
 // headerTitle.innerText = 'Goodbye';
 // headerTitle.innerHTML = '<h3>Hello</h3>';
-
+headerTitle.style.borderBottom = 'solid 3px #000';
 
 
 
