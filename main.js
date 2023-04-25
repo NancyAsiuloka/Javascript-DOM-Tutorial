@@ -25,6 +25,9 @@
 // headerTitle.innerHTML = '<h3>Hello</h3>';
 // header.style.borderBottom = 'solid 3px #000';
 
+// GETELEMENTSBYCLASSNAME
+var items = document.getElementsByClassName('list-group-item');
+
 
 
 
