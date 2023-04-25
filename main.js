@@ -13,3 +13,4 @@
 // // document.all[10].textContent = "Hello";
 // console.log(document.forms[0]);
 // console.log(document.links);
+console.log(document.images);
