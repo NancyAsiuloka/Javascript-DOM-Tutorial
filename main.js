@@ -18,5 +18,5 @@
 // Get element by id
 console.log(document.getElementById('header-title'));
 var headerTitle = document.getElementById('header-title');
-
+console.log(headerTitle);
 
