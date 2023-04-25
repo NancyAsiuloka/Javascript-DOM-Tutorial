@@ -11,5 +11,5 @@ console.log(document.body);
 console.log(document.all);
 console.log(document.all[9]);
 // document.all[10].textContent = "Hello";
-console.log(document.forms);
+console.log(document.forms[0]);
 console.log(document.links);
