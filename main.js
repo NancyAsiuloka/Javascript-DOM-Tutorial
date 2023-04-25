@@ -16,4 +16,7 @@
 // console.log(document.images);
 
 // Get element by id
-console.log();
+console.log(document.getElementById('header-title'));
+var headerTitle = document.getElementById('header-title');
+
+
