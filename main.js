@@ -19,7 +19,7 @@
 // console.log(document.getElementById('header-title'));
 var headerTitle = document.getElementById('header-title');
 console.log(headerTitle);
-headerTitle.textContent = 'Hello';
-headerTitle.innerText = 'Goodbye';
+// headerTitle.textContent = 'Hello';
+// headerTitle.innerText = 'Goodbye';
 
 
