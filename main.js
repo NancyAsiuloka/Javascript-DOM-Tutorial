@@ -16,4 +16,4 @@
 // console.log(document.images);
 
 // Get element by id
-
+console.log();
