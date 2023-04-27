@@ -88,6 +88,6 @@
 var itemList = document.querySelector('#items');
 // parentNode
 console.log(itemList.parentNode);
-itemList.parentNode.style.backgroundColor = 'red';
+itemList.parentNode.style.backgroundColor = 'f4f4f4';
 
 
