@@ -144,6 +144,11 @@ newDiv.setAttribute('title', 'Hello Div');
 // create a text node
 var newDivText = document.createTextNode('Hello World');
 
+// add text to div
+newDiv.appendChild(newDivText);
+
+var container = document.querySelector('header .container');
+
 
 
 console.log(newDiv);
