@@ -122,11 +122,31 @@ var itemList = document.querySelector('#items');
 // console.log(itemList.nextElementSibling);
 
 // previousSibling
-console.log(itemList.previousSibling);
-//previousElementSibling
-console.log(itemList.previousElementSibling);
-itemList.previousElementSibling.getElementsByClassName.color = 'green';
+// console.log(itemList.previousSibling);
+// //previousElementSibling
+// console.log(itemList.previousElementSibling);
+// itemList.previousElementSibling.getElementsByClassName.color = 'green';
 
+// createElement
+// create a div
+
+var newDiv = document.createElement('div');
+
+// add class
+newDiv.className = 'Hello';
+
+// add id
+newDiv.id = 'Hello 1';
+
+// add attr
+newDiv.setAttribute('title', 'Hello Div');
+
+// create a text node
+var newDivText = document.createTextNode('Hello World');
+
+
+
+console.log(newDiv);
 
 
 
