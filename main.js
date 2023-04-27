@@ -111,10 +111,32 @@ var itemList = document.querySelector('#items');
 // itemList.firstElementChild.textContent = 'hello 1';
 
 // lastChild
-console.log(itemList.lastChild);
-// lastElementChild
-console.log(itemList.lastElementChild);
-itemList.lastElementChild.textContent = 'Hello 4';
+// console.log(itemList.lastChild);
+// // lastElementChild
+// console.log(itemList.lastElementChild);
+// itemList.lastElementChild.textContent = 'Hello 4';
+
+// nextSibling
+// console.log(itemList.nextSibling);
+// // nextElementSibling
+// console.log(itemList.nextElementSibling);
+
+// previousSibling
+console.log(itemList.previousSibling);
+//previousElementSibling
+console.log(itemList.previousElementSibling);
+itemList.previousElementSibling.getElementsByClassName.color = 'green';
+
+
+
+
+
+
+
+
+
+
+
 
 
 
