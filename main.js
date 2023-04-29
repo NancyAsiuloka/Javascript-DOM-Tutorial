@@ -136,7 +136,7 @@ var newDiv = document.createElement('div');
 newDiv.className = 'Hello';
 
 // add id
-newDiv.id = 'Hello 1';
+newDiv.id = 'Hello1';
 
 // add attr
 newDiv.setAttribute('title', 'Hello Div');
