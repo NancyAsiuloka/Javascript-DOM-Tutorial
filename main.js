@@ -154,7 +154,7 @@ console.log(newDiv);
 
 newDiv.style.fontSize = '30px';
 
-container.parentNode.insertBefore(newDiv, h1);
+container.insertBefore(newDiv, h1);
 
 
 
