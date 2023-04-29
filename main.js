@@ -130,31 +130,48 @@
 // createElement
 // create a div
 
-var newDiv = document.createElement('div');
+// var newDiv = document.createElement('div');
 
-// add class
-newDiv.className = 'Hello';
+// // add class
+// newDiv.className = 'Hello';
 
-// add id
-newDiv.id = 'Hello1';
+// // add id
+// newDiv.id = 'Hello1';
 
-// add attr
-newDiv.setAttribute('title', 'Hello Div');
+// // add attr
+// newDiv.setAttribute('title', 'Hello Div');
 
-// create a text node
-var newDivText = document.createTextNode('Hello World');
+// // create a text node
+// var newDivText = document.createTextNode('Hello World');
 
-// add text to div
-newDiv.appendChild(newDivText);
+// // add text to div
+// newDiv.appendChild(newDivText);
 
-var container = document.querySelector('header #container');
-var h1 = document.querySelector('header h1');
+// var container = document.querySelector('header #container');
+// var h1 = document.querySelector('header h1');
 
 
 
-// newDiv.style.fontSize = '30px';
+// // newDiv.style.fontSize = '30px';
 
-container.insertBefore(newDiv, h1);
+// container.insertBefore(newDiv, h1);
+
+var button = document.getElementById('button')
+.addEventListener('click', buttonClick);
+
+function buttonClick(e){
+    // console.log('Button clicked');
+    // document.getElementById('header-title').textContent = 'Changed';
+    // document.querySelector('#main').style.backgroundColor = '#f4f4f4';
+    // console.log(e);
+
+    console.log(e.target);
+    console.log(e.target.id);
+    console.log(e.target.className);
+    console.log(e.target.classList);
+    var output = document.getElementById('output');
+    output.innerHTML = '<h3>'+e.target.id+'</h3>';
+}
 
 
 
