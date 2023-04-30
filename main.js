@@ -173,7 +173,7 @@ function buttonClick(e){
     // output.innerHTML = '<h3>'+e.target.id+'</h3>';
 
     // console.log(e.type);
-    console.log(e.client);
+    console.log(e.clientX);
 
 }
 
