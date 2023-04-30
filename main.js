@@ -187,11 +187,14 @@
 
 // }
 
-var button = document.getElementById('button')
-.addEventListener('click', runEvent);
+var button = document.getElementById('button');
+
+// button.addEventListener('click', runEvent);
+// button.addEventListener('dbclick', runEvent);
+button.addEventListener('mousemove', runEvent);
 
 function runEvent(e){
-    console.log('EVENT TYPE:'+e.type);
+    console.log('EVENT TYPE: '+e.type);
 }
 
 
