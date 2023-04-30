@@ -174,6 +174,7 @@ function buttonClick(e){
 
     // console.log(e.type);
     console.log(e.clientX);
+    console.log(e.clientY);
 
 }
 
