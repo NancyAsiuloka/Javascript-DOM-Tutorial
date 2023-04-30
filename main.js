@@ -173,8 +173,11 @@ function buttonClick(e){
     // output.innerHTML = '<h3>'+e.target.id+'</h3>';
 
     // console.log(e.type);
-    console.log(e.clientX);
-    console.log(e.clientY);
+    // console.log(e.clientX);
+    // console.log(e.clientY);
+
+    console.log(e.offsetX);
+    console.log(e.offsetY);
 
 }
 
