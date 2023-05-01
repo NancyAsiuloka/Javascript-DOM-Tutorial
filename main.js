@@ -193,7 +193,7 @@ var button = document.getElementById('button');
 // button.addEventListener('dbclick', runEvent);
 // button.addEventListener('mousemove ', runEvent);
 // button.addEventListener('mousedown ', runEvent);
-button.addEventListener('mouseup ', runEvent);
+// button.addEventListener('mouseup ', runEvent);
 
 function runEvent(e){
     console.log('EVENT TYPE: '+e.type);
