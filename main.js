@@ -188,6 +188,7 @@
 // }
 
 var button = document.getElementById('button');
+var button = document.getElementById('button');
 
 // button.addEventListener('click', runEvent);
 // button.addEventListener('dbclick', runEvent);
