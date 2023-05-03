@@ -197,10 +197,10 @@ var box = document.getElementById('box');
 // button.addEventListener('mouseup ', runEvent);
 
 box.addEventListener('mouseenter', runEvent);
-box.addEventListener('mouseleave', runEvent);
+// box.addEventListener('mouseleave', runEvent);
 
 box.addEventListener('mouseover', runEvent);
-box.addEventListener('mouseout', runEvent);
+// box.addEventListener('mouseout ', runEvent);
 
 
 function runEvent(e){
