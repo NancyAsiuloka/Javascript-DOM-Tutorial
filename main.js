@@ -199,6 +199,9 @@ var box = document.getElementById('box');
 box.addEventListener('mouseenter', runEvent);
 box.addEventListener('mouseleave', runEvent);
 
+box.addEventListener('mouseover', runEvent);
+box.addEventListener('mouseout', runEvent);
+
 
 function runEvent(e){
     console.log('EVENT TYPE: '+e.type);
