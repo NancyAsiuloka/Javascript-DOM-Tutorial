@@ -195,6 +195,7 @@ button.addEventListener('mousemove', runEvent);
 
 function runEvent(e){
     console.log('EVENT TYPE: '+e.type);
+
 }
 
 
