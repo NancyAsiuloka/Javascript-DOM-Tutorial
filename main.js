@@ -201,7 +201,7 @@ var box = document.getElementById('box');
 
 // box.addEventListener('mouseover', runEvent);
 // box.addEventListener('mouseout', runEvent);
-box.addEventListener('mousemove', runEvent);
+// box.addEventListener('mousemove', runEvent);
 
 
 function runEvent(e){
@@ -209,7 +209,7 @@ function runEvent(e){
 
     // output.innerHTML = '<h3>MouseX:'+e.offsetX+'</h3><h3>MouseY:'+e.offsetY+'</h3>';
 
-    document.body.style.backgroundColor = 'rgb('+e.offsetX+','+e.offsetY+', 40)';
+    //  document.body.style.backgroundColor = 'rgb('+e.offsetX+','+e.offsetY+', 40)';
 }
 
 
