@@ -192,15 +192,16 @@ var box = document.getElementById('box');
 
 // button.addEventListener('click', runEvent);
 // button.addEventListener('dbclick', runEvent);
-// button.addEventListener('mousemove ', runEvent);
-// button.addEventListener('mousedown ', runEvent);
-// button.addEventListener('mouseup ', runEvent);
+// button.addEventListener('mousemove', runEvent);
+// button.addEventListener('mousedown', runEvent);
+// button.addEventListener('mouseup', runEvent);
 
 // box.addEventListener('mouseenter', runEvent);
 // box.addEventListener('mouseleave', runEvent);
 
-box.addEventListener('mouseover', runEvent);
-// box.addEventListener('mouseout ', runEvent);
+// box.addEventListener('mouseover', runEvent);
+// box.addEventListener('mouseout', runEvent);
+box.addEventListener('mousemove', runEvent);
 
 
 function runEvent(e){
