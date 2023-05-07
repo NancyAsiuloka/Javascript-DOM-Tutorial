@@ -205,7 +205,7 @@ var box = document.getElementById('box');
 
 
 var itemInput = document.querySelector('input[type="text"]');
-
+var form = document.querySelector('form');
 
 function runEvent(e){
     console.log('EVENT TYPE: '+e.type)
