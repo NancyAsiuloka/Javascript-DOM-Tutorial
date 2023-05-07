@@ -204,6 +204,9 @@ var box = document.getElementById('box');
 // box.addEventListener('mousemove', runEvent);
 
 
+var itemInput = document.querySelector('input[type="text"]');
+
+
 function runEvent(e){
     console.log('EVENT TYPE: '+e.type)
     // output.innerHTML = '<h3>MouseX:'+e.offsetX+' </h3><h3>MouseY:'+e.offsetY+'</h3>';
