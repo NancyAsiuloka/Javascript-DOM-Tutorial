@@ -205,7 +205,7 @@ var box = document.getElementById('box');
 
 
 var itemInput = document.querySelector('input[type="text"]');
-var form = document.querySelector('#addForm');
+var form = document.querySelector('form');
 
 itemInput.addEventListener('keydown', runEvent);
 
