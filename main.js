@@ -209,7 +209,9 @@ var form = document.querySelector('form');
 
 // itemInput.addEventListener('keydown', runEvent);
 // itemInput.addEventListener('keyup', runEvent);
-itemInput.addEventListener('keypress', runEvent);
+// itemInput.addEventListener('keypress', runEvent);
+
+itemInput.addEventListener('blur', runEvent);
 
 function runEvent(e){
     console.log('EVENT TYPE: '+e.type)
