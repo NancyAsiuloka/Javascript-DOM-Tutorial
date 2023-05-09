@@ -212,8 +212,8 @@ itemInput.addEventListener('keydown', runEvent);
 function runEvent(e){
     console.log('EVENT TYPE: '+e.type)
 
-    console.log(e.target.value);
-    document.getElementById('output').innerHTML = '<h3>'+e.target.value+'</h3>'
+    // console.log(e.target.value);
+    // document.getElementById('output').innerHTML = '<h3>'+e.target.value+'</h3>'
 
     // output.innerHTML = '<h3>MouseX:'+e.offsetX+' </h3><h3>MouseY:'+e.offsetY+'</h3>';
 
