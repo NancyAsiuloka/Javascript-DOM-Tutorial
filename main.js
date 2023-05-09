@@ -212,6 +212,7 @@ var form = document.querySelector('form');
 // itemInput.addEventListener('keypress', runEvent);
 
 itemInput.addEventListener('focus', runEvent);
+itemInput.addEventListener('blur', runEvent);
 
 function runEvent(e){
     console.log('EVENT TYPE: '+e.type)
