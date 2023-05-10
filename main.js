@@ -220,7 +220,7 @@ itemInput.addEventListener('paste', runEvent);
 
 function runEvent(e){
     console.log('EVENT TYPE: '+e.type)
-    document.body.style.display = 'none';
+
 
     // console.log(e.target.value);
     // document.getElementById('output').innerHTML = '<h3>'+e.target.value+'</h3>'
