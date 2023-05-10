@@ -218,6 +218,9 @@ var form = document.querySelector('form');
 // itemInput.addEventListener('paste', runEvent);
 
 
+itemInput.addEventListener('input', runEvent);
+
+
 function runEvent(e){
     console.log('EVENT TYPE: '+e.type)
 
