@@ -214,8 +214,8 @@ var form = document.querySelector('form');
 // itemInput.addEventListener('focus', runEvent);
 // itemInput.addEventListener('blur', runEvent);
 
-itemInput.addEventListener('cut', runEvent);
-itemInput.addEventListener('paste', runEvent);
+// itemInput.addEventListener('cut', runEvent);
+// itemInput.addEventListener('paste', runEvent);
 
 
 function runEvent(e){
