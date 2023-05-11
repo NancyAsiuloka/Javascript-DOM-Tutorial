@@ -206,6 +206,7 @@ var box = document.getElementById('box');
 
 var itemInput = document.querySelector('input[type="text"]');
 var form = document.querySelector('form');
+var select = document.querySelector('select');
 
 // itemInput.addEventListener('keydown', runEvent);
 // itemInput.addEventListener('keyup', runEvent);
@@ -216,7 +217,6 @@ var form = document.querySelector('form');
 
 // itemInput.addEventListener('cut', runEvent);
 // itemInput.addEventListener('paste', runEvent);
-
 
 // itemInput.addEventListener('input', runEvent);
 
