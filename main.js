@@ -220,6 +220,8 @@ var select = document.querySelector('select');
 
 // itemInput.addEventListener('input', runEvent);
 
+select.addEventListener('change', runEvent);
+
 
 function runEvent(e){
     console.log('EVENT TYPE: '+e.type)
