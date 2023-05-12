@@ -221,6 +221,7 @@ var select = document.querySelector('select');
 // itemInput.addEventListener('input', runEvent);
 
 select.addEventListener('change', runEvent);
+select.addEventListener('input', runEvent);
 
 
 function runEvent(e){
