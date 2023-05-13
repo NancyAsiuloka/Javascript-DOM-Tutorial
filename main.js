@@ -223,7 +223,7 @@ var select = document.querySelector('select');
 // select.addEventListener('change', runEvent);
 // select.addEventListener('input', runEvent);
 
-form.addEventListener('submit', runEvent);
+// form.addEventListener('submit', runEvent);
 
 
 function runEvent(e){
