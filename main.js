@@ -226,9 +226,9 @@ var select = document.querySelector('select');
 // form.addEventListener('submit', runEvent);
 
 
-function runEvent(e){
-    e.preventDefault();
-    console.log('EVENT TYPE: '+e.type)
+// function runEvent(e){
+//     e.preventDefault();
+//     console.log('EVENT TYPE: '+e.type)
 
 
     // console.log(e.target.value);
@@ -238,7 +238,7 @@ function runEvent(e){
 
     //  box.style.backgroundColor = 'rgb('+e.offsetX+','+e.offsetY+', 40)';
     //  document.body.style.backgroundColor = 'rgb('+e.offsetX+','+e.offsetY+', 40)';
-}
+// }
 
 
 
