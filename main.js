@@ -201,7 +201,7 @@ var box = document.getElementById('box');
 
 // box.addEventListener('mouseover', runEvent);
 // box.addEventListener('mouseout', runEvent);
-// box.addEventListener('mousemove', runEvent);
+box.addEventListener('mousemove', runEvent);
 
 
 function runEvent(e){
