@@ -255,7 +255,12 @@ function addItem(e){
 
     // Create new li element
     var li = document.createElement('li');
+    // Add class
+    li.className = 'list-group-item';
+    // Add text node with input value
+    li.appendChild(document.createTextNode(newItem));
 
+    itemList.appendChild(li);
 }
 
 
