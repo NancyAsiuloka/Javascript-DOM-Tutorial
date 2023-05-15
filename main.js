@@ -261,7 +261,7 @@ function addItem(e){
     // Create new li element
     var li = document.createElement('li');
     // Add class
-    li.className = 'list-group-item';
+    li.className = 'list-gr oup-item';
     // Add text node with input value
     li.appendChild(document.createTextNode(newItem));
 
@@ -302,7 +302,7 @@ function filterItems(e){
         if(itemName.toLowerCase().indexOf(text) != -1){
             item.style.display = 'block';
         } else {
-            item.display = 'none';
+            item.style.display = 'none';
         }
     });
 }
