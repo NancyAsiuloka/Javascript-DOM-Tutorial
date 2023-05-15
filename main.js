@@ -250,7 +250,12 @@ form.addEventListener('submit', addItem);
 function addItem(e){
     e.preventDefault();
 
-    console.log(1);
+    // Get input value
+    var newItem = document.getElementById('item');
+
+    // Create new li element
+    var li = document.createElement('li');
+
 }
 
 
