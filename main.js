@@ -242,11 +242,14 @@ var box = document.getElementById('box');
 
 var form = document.getElementById('addForm');
 var itemList = document.getElementById('items');
+var filter = document.getElementById('filter');
 
 // Form submit event
 form.addEventListener('submit', addItem);
 // Delete event
 itemList.addEventListener('click', removeItem);
+// Filter event
+filter.addEventListener('keyup', filterItems);
 
 // Add item
 function addItem(e){
@@ -278,6 +281,20 @@ function addItem(e){
 }
 
 // Remove items
+function removeItem(e){
+    if(e.target.classList.contains('delete')){
+        if(confirm('Are you sure?')){
+            var li = e.target.parentElement;
+            itemList.removeChild(li);
+        }
+    }
+}
+
+// Filter items
+function filterItems(e){
+    // convert text to lowercase
+    var text = e.target.value.toLowerCase();
+}
 
 
 
