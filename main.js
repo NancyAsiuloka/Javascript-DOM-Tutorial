@@ -240,6 +240,8 @@ var box = document.getElementById('box');
     //  document.body.style.backgroundColor = 'rgb('+e.offsetX+','+e.offsetY+', 40)';
 // }
 
+var form = document.getElementById('addForm');
+var itemList = document.getElementById('items');
 
 
 
